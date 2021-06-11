@@ -15,7 +15,7 @@ ACTION.JOB.REMOVE_PESTS_FROM_CROP,,Removing pests from {{targetPlant}},Entfernt 
 ACTION.JOB.SHOVELLING,,Shovelling {{targetDescription}},Schaufelt {{targetDescription}}
 ACTION.JOB.TILLING,,Tilling the earth,Bestellt das Feld
 ACTION.JOB.TRANSFER_LIQUID,For filling a container with a liquid,Filling {{targetDescription}},Füllt {{targetDescription}}
-ACTION.MALTING.VERB,,Malting,
+ACTION.MALTING.VERB,,Malting,Mälzen
 ACTION.PREPARATION.VERB,,Preparing,Bereitet vor
 ACTION.SELECT_JOB.DESCRIPTION,When looking for a job to work,Looking for work to do,Sucht Arbeit
 ACTION.SLEEP_IN_BED.DESCRIPTION,E.g. “Sleeping in wooden bed”,Sleeping in {{containerDescription}},Schläft in {{containerDescription}}
@@ -33,19 +33,19 @@ COOKING.BREAD.DESCRIPTION,E.g. “Wheat bread”,{{materialDescription}} bread,{
 COOKING.DUAL_INGREDIENT.DESCRIPTION,"E.g. “Tomato and potato”, to be used for for two ingredients together as below",{{materialOne}} and {{materialTwo}},{{materialOne}} und {{materialTwo}}
 COOKING.SOUP.DESCRIPTION,"E.g. “Tomato soup”, “Tomato and potato soup”, “Vegetable soup”",{{materialDescription}} soup,Suppe aus {{materialDescription}}
 
-CRAFTING_TYPE.BAKING,,Baking,
-CRAFTING_TYPE.BLACKSMITHING,,Blacksmithing,
-CRAFTING_TYPE.CARPENTRY,,Carpentry,
-CRAFTING_TYPE.COKE_OVEN_BAKING,,Coke baking,
-CRAFTING_TYPE.FERMENTING,,Fermenting,
-CRAFTING_TYPE.MALTING,,Malting,
-CRAFTING_TYPE.MALT_MASHING,,Malt mashing,
-CRAFTING_TYPE.MILLING,,Milling,
-CRAFTING_TYPE.ORE_CRUSHING,,Ore crushing,
-CRAFTING_TYPE.SMELTING,,Smelting,
-CRAFTING_TYPE.STONEMASONRY,,Stonemasonry,
-CRAFTING_TYPE.WOODCUTTING,,Woodcutting,
-CRAFTING_TYPE.WORT_BREWING,,Brewing,
+CRAFTING_TYPE.BAKING,,Baking,Backen
+CRAFTING_TYPE.BLACKSMITHING,,Blacksmithing,Schmieden
+CRAFTING_TYPE.CARPENTRY,,Carpentry,Schreinern
+CRAFTING_TYPE.COKE_OVEN_BAKING,,Coke baking,Verkoken
+CRAFTING_TYPE.FERMENTING,,Fermenting,Gären
+CRAFTING_TYPE.MALTING,,Malting,Mälzen
+CRAFTING_TYPE.MALT_MASHING,,Malt mashing,Maischen
+CRAFTING_TYPE.MILLING,,Milling,Mahlen
+CRAFTING_TYPE.ORE_CRUSHING,,Ore crushing,Erz zerkleinern
+CRAFTING_TYPE.SMELTING,,Smelting,Schmelzen
+CRAFTING_TYPE.STONEMASONRY,,Stonemasonry,Stein bearbeiten
+CRAFTING_TYPE.WOODCUTTING,,Woodcutting,Holz hacken
+CRAFTING_TYPE.WORT_BREWING,,Brewing,Brauen
 
 CROP.AFFLICTED_BY_PESTS,For when a crop plant is infested with insects and other pests and needs some work to remove them,Afflicted by pests,Von Schädlingen befallen
 CROP.AFFLICTED_BY_PESTS.TOOLTIP,,This crop has been afflicted by an excessive number of aphids and other insects which need to be removed by a {{PROFESSION.FARMER}} before it can flourish again. Not removing the pests in time could mean that this crop dies!,"Diese Pflanze ist von einer hohen Anzahl an Blattläusen und anderen Insekten befallen, die von einem {{PROFESSION.FARMER}} entfernt werden müssen bevor sie wieder gedeihen kann. Die Pflanze kann sterben wenn die Schädlinge nicht rechtzeitig entfernt werden!"
@@ -84,16 +84,16 @@ FURNITURE.BAKERS_WORKTOP,,Baker’s worktop,Bäckerarbeitsplatte
 FURNITURE.BAKERS_WORKTOP.TOOLTIP,,A {{PROFESSION.CHEF}} works here to turn {{RESOURCE.FLOUR.SACK.PLURAL}} into {{INGREDIENT.DOUGH}}.,"Ein {{PROFESSION.CHEF}} arbeitet hier, um {{RESOURCE.FLOUR.SACK.PLURAL}} zu {{INGREDIENT.DOUGH}} zu verarbeiten."
 FURNITURE.BAKING_OVEN,For the baking of bread,Baker's oven,Backofen
 FURNITURE.BAKING_OVEN.TOOLTIP,,A {{PROFESSION.CHEF}} bakes loaves here using prepared {{INGREDIENT.DOUGH}}.,Ein {{PROFESSION.CHEF}} backt hier Laibe aus {{INGREDIENT.DOUGH}}.
-FURNITURE.BEER_TAPPER,,Beer tapper,
-FURNITURE.BEER_TAPPER.STATE.BEER_AVAILABLE,,Beer is available,
-FURNITURE.BEER_TAPPER.STATE.BEER_BARREL_INCOMING,,A beer barrel is on the way,
-FURNITURE.BEER_TAPPER.STATE.BEER_EXHAUSTED,,The beer has all gone!,
-FURNITURE.BEER_TAPPER.STATE.IDLE,,Idle (no beer available),
-FURNITURE.BEER_TAPPER.TOOLTIP,,This is where fermented {{LIQUID.BEER}} is served from.,
+FURNITURE.BEER_TAPPER,,Beer tapper,Zapfhahn
+FURNITURE.BEER_TAPPER.STATE.BEER_AVAILABLE,,Beer is available,Bier ist vorhanden
+FURNITURE.BEER_TAPPER.STATE.BEER_BARREL_INCOMING,,A beer barrel is on the way,Ein Bierfass ist unterwegs
+FURNITURE.BEER_TAPPER.STATE.BEER_EXHAUSTED,,The beer has all gone!,Das Bier ist alle!
+FURNITURE.BEER_TAPPER.STATE.IDLE,,Idle (no beer available),Untätig (kein Bier vorhanden)
+FURNITURE.BEER_TAPPER.TOOLTIP,,This is where fermented {{LIQUID.BEER}} is served from.,Von hier wird fermentiertes {{LIQUID.BEER}} serviert.
 FURNITURE.BLOOMERY_FURNACE,A simple type of furnace to smelt metal from ore,Bloomery furnace,Rennofen
 FURNITURE.BLOOMERY_FURNACE.TOOLTIP,,A {{PROFESSION.BLACKSMITH}} uses this hand-operated furnace to turn {{RESOURCE.ORE.CRUSHED.PLURAL}} and {{FUEL.SACK}} into {{MATERIAL_TYPE.METAL.ADJECTIVE}} {{RESOURCE.METAL.INGOT.PLURAL}}.,"Ein {{PROFESSION.BLACKSMITH}} benutzt diese handbetriebene Schmiede, um {{RESOURCE.ORE.CRUSHED.PLURAL}} und {{FUEL.SACK}} zu {{MATERIAL_TYPE.METAL.ADJECTIVE}} {{RESOURCE.METAL.INGOT.PLURAL}} zu verarbeiten."
-FURNITURE.BREW_KETTLE,,Brew kettle,
-FURNITURE.BREW_KETTLE.TOOLTIP,,This is used to produce the final wort (unfermented beer) using {{VEGETABLE.HOPS}} and wort from the {{FURNITURE.MASH_TUN}}.,
+FURNITURE.BREW_KETTLE,,Brew kettle,Braukessel
+FURNITURE.BREW_KETTLE.TOOLTIP,,This is used to produce the final wort (unfermented beer) using {{VEGETABLE.HOPS}} and wort from the {{FURNITURE.MASH_TUN}}.,Aus {{VEGETABLE.HOPS}} und Stammwürze vom {{FURNITURE.MASH_TUN}} wird hier die Bierwürze (ungegärtes Bier) hergestellt.
 FURNITURE.CARPENTRY_WORKBENCH,,Carpentry workbench,Schreinerstation
 FURNITURE.CARPENTRY_WORKBENCH.TOOLTIP,,"Most wooden items and tools are produced here, such as {{PRODUCT.BUCKET.PLURAL}} and {{PRODUCT.BARREL.PLURAL}}.","Die meisten Gegenstände und Werkzeuge aus Holz werden hier hergestellt, wie {{PRODUCT.BUCKET.PLURAL}} und {{PRODUCT.BARREL.PLURAL}}."
 FURNITURE.CAULDRON,A large metal pot for cooking (common with Halloween),Cauldron,Kessel
@@ -112,8 +112,8 @@ FURNITURE.DESCRIPTION.WAITING_FOR_LIQUID,,Waiting to be filled,Wartet darauf gef
 FURNITURE.DESCRIPTION.WAITING_FOR_MUSHROOM_SPAWN,,Waiting to be injected with mushroom spawn,Wartet darauf mit Pilzkultur injiziert zu werden
 FURNITURE.FEASTING_TABLE,A very large table for a feast,Feasting table,Festtafel
 FURNITURE.FEASTING_TABLE.TOOLTIP,,"With a {{FURNITURE.CHAIR}} in place, your settlers will enjoy their meals at this table.",Mit platzierten {{FURNITURE.CHAIR}} können deine Siedler ihre Mahlzeiten an diesem Tisch genießen.
-FURNITURE.FERMENTATION_TANK,,Fermentation tank,
-FURNITURE.FERMENTATION_TANK.TOOLTIP,,This is where {{LIQUID.HOPPED_WORT}} is fermented into {{LIQUID.BEER}}.,
+FURNITURE.FERMENTATION_TANK,,Fermentation tank,Gärtank
+FURNITURE.FERMENTATION_TANK.TOOLTIP,,This is where {{LIQUID.HOPPED_WORT}} is fermented into {{LIQUID.BEER}}.,Hier wird {{LIQUID.HOPPED_WORT}} zu {{LIQUID.BEER}} gegärt.
 FURNITURE.FLOUR_MILL,This is a table with a hand-operated flour mill stone on top,Gristmill,Getreidemühle
 FURNITURE.FLOUR_MILL.TOOLTIP,,The gristmill grinds {{VEGETABLE.WHEAT}} into {{RESOURCE.FLOUR.SACK.NOUN}} so that it can be used by a {{PROFESSION.CHEF}}.,“Die Getreidemühle mahlt {{VEGETABLE.WHEAT}} zu {{RESOURCE.FLOUR.SACK.NOUN}}
 FURNITURE.FORGE,,Forge,Schmiede
@@ -125,10 +125,10 @@ FURNITURE.KITCHEN_WORKTOP.TOOLTIP,,An area to store ingredients for a {{PROFESSI
 FURNITURE.LANTERN,,Lantern,Laterne
 FURNITURE.LANTERN.TOOLTIP,,A lantern provides light – this does not currently have an in-game effect.,Eine Laterne verbreitet Licht – hat momentan noch keinen Effekt im Spiel.
 FURNITURE.LARGE_TABLE,,Large table,Esstisch
-FURNITURE.MALTING_STATION,,Malting station,
-FURNITURE.MALTING_STATION.TOOLTIP,,"Here brewers steep barley and then dry it out using a kiln to produce malt. ",
-FURNITURE.MASH_TUN,,Mash tun,
-FURNITURE.MASH_TUN.TOOLTIP,,This is used to produce wort (unfermented beer) from milled malt and water.,
+FURNITURE.MALTING_STATION,,Malting station,Malzstation
+FURNITURE.MALTING_STATION.TOOLTIP,,"Here brewers steep barley and then dry it out using a kiln to produce malt. ","Hier weichen Brauer Gerste ein und lassen sie dann in einem Ofen trocknen, um Malz herzustellen."
+FURNITURE.MASH_TUN,,Mash tun,Maischebottich
+FURNITURE.MASH_TUN.TOOLTIP,,This is used to produce wort (unfermented beer) from milled malt and water.,Dies wird benutzt, um Stammwürze (ungegärtes Bier) aus gemahlener Malz und Wasser herzustellen.
 FURNITURE.MUSHROOM_LOG,,Mushroom log,Pilzstamm
 FURNITURE.MUSHROOM_LOG.TOOLTIP,,"A log that has been injected with {{INGREDIENT.MUSHROOM.SPAWN.PLURAL}} to produce several harvests of delicious, juicy mushrooms.","Ein Holzstamm, der mit {{INGREDIENT.MUSHROOM.SPAWN.PLURAL}} injiziert werden kann, um mehrere Ernten an leckeren, saftigen Pilzen hervorzubringen."
 FURNITURE.MUSHROOM_SHOCK_TANK,This is a trough of water used to immerse mushroom logs in for a period of time,Shock tank,Schocktank
@@ -142,7 +142,7 @@ FURNITURE.SARCOPHAGUS.TOOLTIP,,This elaborate stone container is the final resti
 FURNITURE.SERVING_TABLE,A table used to hold food for serving,Serving table,Serviertisch
 FURNITURE.SERVING_TABLE.TOOLTIP,,{{PRODUCT.BREAD.LOAF.PLURAL}} are placed here for serving after being baked in a {{FURNITURE.BAKING_OVEN}}.,"Nachdem {{PRODUCT.BREAD.LOAF.PLURAL}} im {{FURNITURE.BAKING_OVEN}} gebacken worden sind, werden sie hier zum Servieren platziert."
 FURNITURE.SINGLE_BED,,Bed,Bett
-FURNITURE.SINGLE_BED.TOOLTIP,,"A bed is the best place for a comfortable night’s rest. ",Ein Bett ist der beste Platz für eine gemütliche Nachtruhe.
+FURNITURE.SINGLE_BED.TOOLTIP,,"A bed is the best place for a comfortable night’s rest. ","Ein Bett ist der beste Platz für eine gemütliche Nachtruhe."
 FURNITURE.SINGLE_DOOR,,Door,Tür
 FURNITURE.SINGLE_DOOR_FRAME,,Door frame,Türrahmen
 FURNITURE.SMALL_TABLE,,Small table,Tisch
@@ -258,15 +258,15 @@ GUI.BUILD_FURNITURE,This should be as short as possible,Furniture,Möbel
 GUI.BUILD_LABEL,This should be as short as possible,Build,Bauen
 GUI.CANCEL_LABEL,This should be as short as possible,Cancel,Abbrechen
 GUI.CHANGE_PROFESSION_LABEL,,Change profession,Beruf wechseln
-GUI.CRAFTING_MANAGEMENT.MAINTAINING_TEXT,As in keeping a fixed number of items in stock,Maintaining,
-GUI.CRAFTING_MANAGEMENT.TITLE,,Crafting,
-GUI.CRAFTING_MANAGEMENT.TOTAL_QUANTITY_ACTUAL,,Current total: {{quantity}},
-GUI.CRAFTING_MANAGEMENT.TOTAL_QUANTITY_HINT,,({{quantity}} in total),
+GUI.CRAFTING_MANAGEMENT.MAINTAINING_TEXT,As in keeping a fixed number of items in stock,Maintaining,Beibehalten
+GUI.CRAFTING_MANAGEMENT.TITLE,,Crafting,Handwerk
+GUI.CRAFTING_MANAGEMENT.TOTAL_QUANTITY_ACTUAL,,Current total: {{quantity}},Gesamt: {{quantity}}
+GUI.CRAFTING_MANAGEMENT.TOTAL_QUANTITY_HINT,,({{quantity}} in total),({{quantity}} insgesamt)
 GUI.CROP_SELECTION,,Crop:,Pflanze:
 GUI.DATE_TIME_LABEL,"E.g. 09:20, day 4, spring","{{timeOfDay}}, day {{dayNumber}}, {{season}}, year {{year}}","{{timeOfDay}}, Tag {{dayNumber}}, {{season}}"
-GUI.DECONSTRUCT_LABEL,This should be as short as possible,Demolish,
-GUI.DIALOG.CANCEL_BUTTON,,Cancel,
-GUI.DIALOG.CONFIRM_DELETE_SAVE,,Are you sure you wish to delete {{name}}?,
+GUI.DECONSTRUCT_LABEL,This should be as short as possible,Demolish,Abreißen
+GUI.DIALOG.CANCEL_BUTTON,,Cancel,Abbrechen
+GUI.DIALOG.CONFIRM_DELETE_SAVE,,Are you sure you wish to delete {{name}}?,Bist du sicher, dass du {{name}} löschen willst?
 GUI.DIALOG.DISMISS,,Dismiss,Verwerfen
 GUI.DIALOG.ERROR_ROOM_NAME_ALREADY_EXISTS,Error message when the player attempts to rename a room to the same name as another room,A room with that name already exists.,Ein Raum mit diesem Namen existiert schon.
 GUI.DIALOG.ERROR_SAVE_INCOMPATIBLE,"Error loading a save as it is from an older, incompatible version of the game",The save file could not be loaded because it is incompatible with this version of the game.,"Die Datei konnte nicht geladen werden, da sie inkompatibel mit dieser Version des Spiels ist."
@@ -280,29 +280,29 @@ GUI.DIALOG.MOD_CHANGES_OUTSTANDING,,You have selected a different set of mods to
 GUI.DIALOG.MOD_INCOMPATIBLE,,One or more mods are incompatible with this version of the game and have been deactivated. You can check for updates in the mods menu.,Eine oder mehrere Mods sind mit dieser Version des Spiels nicht kompatibel und wurden deaktiviert. Du kannst im Mods-Menü nach Updates suchen.
 GUI.DIALOG.OK_BUTTON,Single button shown to dismiss an error dialog,Ok,OK
 GUI.DIALOG.RENAME_ROOM_TITLE,,Rename room,Raum umbenennen
-GUI.DIALOG.RENAME_SETTLER_TITLE,,Rename settler,
+GUI.DIALOG.RENAME_SETTLER_TITLE,,Rename settler,Siedler umbenennen
 GUI.DIALOG.RESTART_REQUIRED,,You must restart the game for this change to take effect,"Damit diese Änderung wirksam wird, muss das Spiel neugestart werden."
-GUI.DIALOG.SETTLEMENT_NAME_ALREADY_IN_USE,,You already have a saved game for the settlement {{name}}. Starting a new game will overwrite the existing save file. Are you sure you want to continue?,
-GUI.DIALOG.SETTLEMENT_NAME_NOT_SPECIFIED,,A name for the settlement must be specified.,
-GUI.DIALOG.STOCKPILE_MANAGEMENT.TITLE,,Stockpile settings,
-GUI.EMBARK.DISCLAIMER,,"This is an early alpha version of King under the Mountain. There are many, many features still to be added, and bugs are to be expected. In a future update you will be able to use this screen to customise your starting settlers, resources and even map and gameplay settings. Please join our Discord community to report any bugs you find or offer feedback, so we can work together to guide King under the Mountain to become the best possible version of itself. Thank you for playing!",
-GUI.EMBARK.DISCORD_LINK,,Click here to join our Discord community,
-GUI.EMBARK.MAP_SEED,,Map seed:,
-GUI.EMBARK.SETTLEMENT_NAME,,Settlement name:,
-GUI.EMBARK.START,,Begin!,
-GUI.EMBARK.TITLE,,Embark Options,
+GUI.DIALOG.SETTLEMENT_NAME_ALREADY_IN_USE,,You already have a saved game for the settlement {{name}}. Starting a new game will overwrite the existing save file. Are you sure you want to continue?,Du hast bereits einen Speicherstand für die Siedlung {{name}}. Ein neues Spiel wird den existierenden Speicherplatz überschreiben. Bist du sicher, dass du fortfahren willst?
+GUI.DIALOG.SETTLEMENT_NAME_NOT_SPECIFIED,,A name for the settlement must be specified.,Für die Siedlung muss ein Name vergeben werden.
+GUI.DIALOG.STOCKPILE_MANAGEMENT.TITLE,,Stockpile settings,Lager Einstellungen
+GUI.EMBARK.DISCLAIMER,,"This is an early alpha version of King under the Mountain. There are many, many features still to be added, and bugs are to be expected. In a future update you will be able to use this screen to customise your starting settlers, resources and even map and gameplay settings. Please join our Discord community to report any bugs you find or offer feedback, so we can work together to guide King under the Mountain to become the best possible version of itself. Thank you for playing!","Dies ist eine frühe Alpha Version von King under the Mountain. Viele, viele Features fehlen noch und mit Bugs muss gerechnet werden. In einer zukünftigen Version wirst du an dieser Stelle deine ersten Siedler, Vorräte und selbst Karten- und Gameplay Einstellungen anpassen können. Tritt unserer Discord Community bei, um Bugs zu melden oder Feedback zu geben, so dass wir King under the Mountain gemeinsam zum bestmöglichen Spiel machen können. Danke fürs Spielen!"
+GUI.EMBARK.DISCORD_LINK,,Click here to join our Discord community,Klicke hier um unserer Discord Community beizutreten
+GUI.EMBARK.MAP_SEED,,Map seed:,Karten Seed:
+GUI.EMBARK.SETTLEMENT_NAME,,Settlement name:,Siedlungsname:
+GUI.EMBARK.START,,Begin!,Start!
+GUI.EMBARK.TITLE,,Embark Options,Abreiseoptionen
 GUI.FURNITURE_ASSIGNED_TO,Used to show who owns a piece of furniture,Assigned to {{name}},Zugewiesen zu {{name}}
 GUI.FURNITURE_BEING_REMOVED,Label for when a piece of furniture is in the process of being removed,Currently being removed,Wird gerade entfernt
 GUI.FURNITURE_REQUIRES_FLOOR_MATERIALTYPE,,This furniture must be placed on {{materialType}}.,Dieses Möbelstück muss auf {{materialType}} platziert werden.
 GUI.GRAPHICS.FULLSCREEN,,Fullscreen,Vollbild
 GUI.GRAPHICS.RESOLUTION,,Resolution,Auflösung
 GUI.LEAVE_CROP_FALLOW,,None (Leave fallow),Keine (Brachfläche)
-GUI.LOAD_GAME.TABLE.DATE_TIME,,Last modified,
-GUI.LOAD_GAME.TABLE.DELETE,,Delete,
-GUI.LOAD_GAME.TABLE.GAME_TIME,,World time,
-GUI.LOAD_GAME.TABLE.SETTLEMENT_NAME,,Name,
-GUI.LOAD_GAME.TABLE.VERSION,,Version,
-GUI.LOAD_GAME.TITLE,,Load Game,
+GUI.LOAD_GAME.TABLE.DATE_TIME,,Last modified,Zuletzt geändert
+GUI.LOAD_GAME.TABLE.DELETE,,Delete,Löschen
+GUI.LOAD_GAME.TABLE.GAME_TIME,,World time,Uhrzeit
+GUI.LOAD_GAME.TABLE.SETTLEMENT_NAME,,Name,Name
+GUI.LOAD_GAME.TABLE.VERSION,,Version,Version
+GUI.LOAD_GAME.TITLE,,Load Game,Lade Spiel
 GUI.MINIMAP.LABEL,,Minimap,Minikarte
 GUI.MUSIC_VOLUME,,Music volume:,Musiklautstärke:
 GUI.NEW_VERSION_AVAILABLE,,New version now available on Itch.io,Neue Version jetzt auf itch.io verfügbar
@@ -316,56 +316,56 @@ GUI.OPTIONS.GAMEPLAY.TITLE,,"Gameplay Options ","Spieleinstellungen "
 GUI.OPTIONS.GAMEPLAY.USE_EDGE_SCROLLING,This is for a question to ask if the player would like the camera to scroll/pan by placing the mouse at the edge of the screen,Scroll when cursor is at the edge of the screen,"Scrollen, wenn der Mauszeiger am Bildschirmrand ist"
 GUI.OPTIONS.GRAPHICS.TITLE,,"Graphics Options ","Grafikeinstellungen "
 GUI.OPTIONS.MISC.CRASH_REPORTING_ENABLED,,Allow automatic crash reports,Automatische Absturzberichte erlauben
-GUI.OPTIONS.MISC.HINTS_ENABLED,,Show hints and tutorials in-game,
-GUI.OPTIONS.MISC.MAIN_MENU_BACKGROUND_SCROLLING,,Scroll the background on the main menu,
+GUI.OPTIONS.MISC.HINTS_ENABLED,,Show hints and tutorials in-game,Zeige Hinweise und Tutorials im Spiel
+GUI.OPTIONS.MISC.MAIN_MENU_BACKGROUND_SCROLLING,,Scroll the background on the main menu,Scrolle den Hintergrund im Hauptmenü
 GUI.OPTIONS.MISC.TITLE,,Miscellaneous,Verschiedenes
-GUI.OPTIONS.TAB.AUDIO,,Audio,
-GUI.OPTIONS.TAB.GAMEPLAY,,Gameplay,
-GUI.OPTIONS.TAB.GRAPHICS,,Graphics,
-GUI.OPTIONS.TAB.MISC,,Other,
-GUI.OPTIONS.TAB.TWITCH,,Twitch,
-GUI.OPTIONS.TWITCH.ACCOUNT_LABEL,,Twitch Account:,
-GUI.OPTIONS.TWITCH.CODE_LABEL,,Code,
-GUI.OPTIONS.TWITCH.CONNECTED_LABEL,,Twitch account connected,
-GUI.OPTIONS.TWITCH.DISCONNECT,,Disconnect,
-GUI.OPTIONS.TWITCH.DISCONNECTED_LABEL,,Twitch account disconnected,
-GUI.OPTIONS.TWITCH.ENABLED,,Twitch integration enabled,
-GUI.OPTIONS.TWITCH.GENERAL_ERROR,,An error occured while communicating with Twitch,
-GUI.OPTIONS.TWITCH.LINK_ACCOUNT_BUTTON,,Click here to connect your Twitch account,
-GUI.OPTIONS.TWITCH.PRIORITISE_SUBSCRIBERS,,Give priority to subscribers,
-GUI.OPTIONS.TWITCH.SUBMIT_BUTTON,,Submit,
-GUI.OPTIONS.TWITCH.TITLE,,Twitch Integration,
-GUI.OPTIONS.TWITCH.VIEWERS_AS_SETTLERS,,Use viewers as settler names,
+GUI.OPTIONS.TAB.AUDIO,,Audio,Audio
+GUI.OPTIONS.TAB.GAMEPLAY,,Gameplay,Gameplay
+GUI.OPTIONS.TAB.GRAPHICS,,Graphics,Graphik
+GUI.OPTIONS.TAB.MISC,,Other,Anderes
+GUI.OPTIONS.TAB.TWITCH,,Twitch,Twitch
+GUI.OPTIONS.TWITCH.ACCOUNT_LABEL,,Twitch Account:,Twitch Account:
+GUI.OPTIONS.TWITCH.CODE_LABEL,,Code,Code
+GUI.OPTIONS.TWITCH.CONNECTED_LABEL,,Twitch account connected,Twitch Account verbunden
+GUI.OPTIONS.TWITCH.DISCONNECT,,Disconnect,Verbindung getrennt
+GUI.OPTIONS.TWITCH.DISCONNECTED_LABEL,,Twitch account disconnected,Twitch Account getrennt
+GUI.OPTIONS.TWITCH.ENABLED,,Twitch integration enabled,Twitch Integration aktiviert
+GUI.OPTIONS.TWITCH.GENERAL_ERROR,,An error occured while communicating with Twitch,Ein Fehler ist während der Kommunikation mit Twitch aufgetreten
+GUI.OPTIONS.TWITCH.LINK_ACCOUNT_BUTTON,,Click here to connect your Twitch account,Klicke hier um dich mit deinem Twitch Account zu verbinden
+GUI.OPTIONS.TWITCH.PRIORITISE_SUBSCRIBERS,,Give priority to subscribers,Gib deinen Abonnenten Vorrang
+GUI.OPTIONS.TWITCH.SUBMIT_BUTTON,,Submit,Einreichen
+GUI.OPTIONS.TWITCH.TITLE,,Twitch Integration,Twitch Integration
+GUI.OPTIONS.TWITCH.VIEWERS_AS_SETTLERS,,Use viewers as settler names,Benutze Zuschauer für Siedlernamen
 GUI.ORDERS.CHOP_WOOD,This should be as short as possible,Chop,Hacken
 GUI.ORDERS.CLEAR_GROUND,This should be as short as possible,Clear,Aufräumen
 GUI.ORDERS.HARVEST_PLANTS,This should be as short as possible,Harvest,Ernten
 GUI.ORDERS.MINE,This should be as short as possible,Mine,Graben
 GUI.ORDERS_LABEL,This should be as short as possible,Orders,Aufträge
 GUI.PLACE_BRIDGE.HINT,This is a longer label as a hint to the player,A bridge must cover both sides of the river and be at least 3x3 tiles in size,Eine Brücke muss beide Seiten des Flusses bedecken und mindestens 3x3 Felder gross sein
-GUI.PRIORITY_LABEL,This should be as short as possible,Priority,
+GUI.PRIORITY_LABEL,This should be as short as possible,Priority,Priorität
 GUI.REMOVE_LABEL,This should be as short as possible,Remove,Entfernen
 GUI.REMOVE_TILES,This should be as short as possible,Remove tiles,Felder entfernen
 GUI.RESOURCE_MANAGEMENT.TITLE,,Resources,Ressourcen
 GUI.RESOURCE_MANAGEMENT.UNALLOCATED_LABEL,,Available: {{count}},Verfügbar: {{count}}
 GUI.ROTATE_FURNITURE.HINT,This is a longer label as a hint to the player,Press (R) to rotate furniture,Zum Rotieren der Möbel (R) drücken
 GUI.SAVING_PROMPT,Displayed to the player when the game is paused for autosaving,Saving…,Spiel wird gespeichert…
-GUI.SETTINGS.LABEL,,Settings,
-GUI.SETTLER_MANAGEMENT.BEDS_COUNTER,,Number of beds: {{count}},
+GUI.SETTINGS.LABEL,,Settings,Einstellungen
+GUI.SETTLER_MANAGEMENT.BEDS_COUNTER,,Number of beds: {{count}},Anzahl der Betten:  {{count}}
 GUI.SETTLER_MANAGEMENT.DEAD_COUNTER,,Dead: {{count}},Tot: {{count}}
 GUI.SETTLER_MANAGEMENT.LIVING_COUNTER,,Population: {{count}},Bevölkerung: {{count}}
-GUI.SETTLER_MANAGEMENT.SORT.BY_NAME,,Sort by name,
-GUI.SETTLER_MANAGEMENT.SORT.BY_UNHAPPINESS,,Sort by unhappiness,
+GUI.SETTLER_MANAGEMENT.SORT.BY_NAME,,Sort by name,Nach Name sortieren
+GUI.SETTLER_MANAGEMENT.SORT.BY_UNHAPPINESS,,Sort by unhappiness,Nach Unzufriedenheit sortieren
 GUI.SETTLER_MANAGEMENT.TITLE,,Settlers,Siedler
 GUI.SETTLER_MANAGEMENT.TOTAL_QUANTITY_LABEL,,Total: {{count}},Gesamt: {{count}}
 GUI.SOUND_EFFECT_VOLUME,,Sound effect volume,Soundeffektlautstärke
 GUI.UI_SCALE,Used to make the game interface larger or smaller,UI scale:,Interfacegröße
-GUI.VIEW_ROADMAP,,View development roadmap,
+GUI.VIEW_ROADMAP,,View development roadmap,Entwicklungsroadmap anschauen
 GUI.ZONES_LABEL,This should be as short as possible,Zones,Zonen
 
-HAPPINESS_MODIFIER.ALCOHOL_WITHDRAWL,,Going sober,
+HAPPINESS_MODIFIER.ALCOHOL_WITHDRAWL,,Going sober,Wird nüchtern
 HAPPINESS_MODIFIER.ATE_NICELY_PREPARED_FOOD,,Ate a nicely prepared meal,Hat eine gute Mahlzeit gegessen
 HAPPINESS_MODIFIER.CARRIED_DEAD_BODY,,Carried a dead body,Trug einen toten Körper
-HAPPINESS_MODIFIER.DRANK_ALCOHOL,,Under the effects of alcohol,
+HAPPINESS_MODIFIER.DRANK_ALCOHOL,,Under the effects of alcohol,Unter Alkoholeinfluss
 HAPPINESS_MODIFIER.DRANK_FROM_RIVER,,Drank river water,Trank Flusswasser
 HAPPINESS_MODIFIER.DYING_OF_HUNGER,,Starving,Am Verhungern
 HAPPINESS_MODIFIER.DYING_OF_THIRST,,Critically dehydrated,Am Verdursten
@@ -386,13 +386,13 @@ HAPPINESS_MODIFIER.VERY_TIRED,,Extremely tired,Extrem müde
 HAULING.ASSIGNMENT.DESCRIPTION,,{{quantity}} assigned to {{targetDescription}},{{quantity}} zugewiesen an {{targetDescription}}
 
 HINT.BUTTON.DISABLE_ALL,,Disable all hints,Alle Hinweise deaktivieren
-HINT.BUTTON.DISMISS,,Dismiss,
+HINT.BUTTON.DISMISS,,Dismiss,Verwerfen
 HINT.BUTTON.HINTS_ONLY,,Hints only,Nur Hinweise
-HINT.BUTTON.NEXT,,Next,Neben
+HINT.BUTTON.NEXT,,Next,Weiter
 HINT.BUTTON.TUTORIAL,,Tutorial,Tutorial
 HINT.OPEN_PRIORITY_MENU.1,,"You can use this menu to change the priority of jobs and tasks, so that higher priority jobs will be assigned before lower priority jobs.",
 HINT.OPEN_PRIORITY_MENU.2,,"While the Priority menu is open, the priority icons are shown in the game world where there is a job or task to be performed, or where a room or item of furniture may create jobs in the future.",
-HINT.PROGRESS.HEADER,,Progress:,
+HINT.PROGRESS.HEADER,,Progress:,Fortschritt:
 HINT.TOOL_DEPLETED.AXE1,,Your settlement no longer has an {{TOOL.AXE}} available. You will no longer be able to chop down trees.,
 HINT.TOOL_DEPLETED.AXE2,,"More axes can be crafted at the {{FURNITURE.FORGE}}. If you do not have a {{FURNITURE.FORGE}} up and running, you may need to remove a {{FURNITURE.WOODCUTTERS_BENCH}}.",
 HINT.TOOL_DEPLETED.CHISEL1,,Your settlement no longer has a {{TOOL.CHISEL}} available. This is required to construct stone furniture.,
@@ -411,7 +411,7 @@ INGREDIENT.DOUGH,To be combined with the above as “bread dough”,Dough,Teig
 INGREDIENT.FLOUR,,Flour,Mehl
 INGREDIENT.LOAF,To be combined with the above as “bread loaf”,Loaf,Laib
 INGREDIENT.LOAF.PLURAL,,Loaves,Laibe
-INGREDIENT.MALT.SACK.NOUN,,Malt,
+INGREDIENT.MALT.SACK.NOUN,,Malt,Malz
 INGREDIENT.MALT.SACK.TOOLTIP,,This needs to be milled before it can be used further for brewing.,
 INGREDIENT.MILLED.MALT.SACK.NOUN,,Milled malt,
 INGREDIENT.MILLED.MALT.SACK.TOOLTIP,,This is combined with water in a {{FURNITURE.MASH_TUN}} to produce {{LIQUID.WORT}}.,
@@ -438,12 +438,12 @@ ITEM_GROUP.TOOL.PLURAL,,Tools,Werkzeuge
 
 LANGUAGE.LABEL,,Language,Sprache
 
-LIQUID.BEER.NOUN,,Beer,
+LIQUID.BEER.NOUN,,Beer,Bier
 LIQUID.BEER.TOOLTIP,,"Beloved by dwarves, this will provide a substantial happiness bonus for a while. The only problem is that they will eventually require it to get through the working day.",
 LIQUID.HOPPED_WORT.NOUN,,Hopped wort,
 LIQUID.HOPPED_WORT.TOOLTIP,,This is the final stage of unfermented beer before it is placed in a {{FERMENTATION_TANK}} to produce drinkable beer.,
 LIQUID.WATER.NOUN,,Water,Wasser
-LIQUID.WORT.NOUN,,Wort,
+LIQUID.WORT.NOUN,,Wort,Stammwürze
 LIQUID.WORT.TOOLTIP,,"This is unfermented beer, it requires {{VEGETABLE.HOPS}} to be added in a {{FURNITURE.BREW_KETTLE}} for flavour before it can be fermented.",
 
 MADNESS.BROKEN.ADJECTIVE,,Broken,Gebrochen
@@ -471,7 +471,7 @@ MATERIAL_TYPE.WOOD.ADJECTIVE,,Wooden,Holz
 MATERIAL_TYPE.WOOD.NOUN,,Wood,Holz
 
 MENU.CONTINUE_GAME,,Continue game,Spiel fortsetzen
-MENU.LOAD_GAME,,Load game,
+MENU.LOAD_GAME,,Load game,Spiel laden
 MENU.MODS,,Mods,Mods
 MENU.NEW_GAME,,Start new game,Neues Spiel beginnen
 MENU.OPTIONS,,Options,Optionen
@@ -801,7 +801,7 @@ ROOMS.MUSHROOM_FARM,,Mushroom farm,Pilzfarm
 ROOMS.MUSHROOM_FARM.TOOLTIP,,Mushrooms can be grown using {{INGREDIENT.MUSHROOM.SPAWN.NOUN}} and wooden {{RESOURCE.LOGS.PLURAL}}.,Pilze können mit {{INGREDIENT.MUSHROOM.SPAWN.NOUN}} und Holz {{RESOURCE.LOGS.PLURAL}} angebaut werden.
 ROOMS.SAWMILL,,Sawmill,Sägewerk
 ROOMS.SAWMILL.TOOLTIP,,Wooden {{RESOURCE.LOGS.PLURAL}} are refined into {{RESOURCE.PLANKS.PLURAL}} here.,Hölzerne {{RESOURCE.LOGS.PLURAL}} werden hier zu {{RESOURCE.PLANKS.PLURAL}} verfeinert.
-ROOMS.STOCKPILE,,Stockpile,
+ROOMS.STOCKPILE,,Stockpile,Lager
 ROOMS.STOCKPILE.TOOLTIP,,This area stores different kinds of items depending on settings.,
 ROOMS.STOCKPILES,,Stockpiles,Lager
 ROOMS.STOCKPILES.TOOLTIP,,Unused items are placed in stockpiles for easy access.,Unbenutzte Gegenstände werden für einen einfachen Zugang auf Lager gelegt.
